@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'vazirnormal';
+direction: rtl;
+background: rgb(33,34,69);
+background: linear-gradient(90deg, rgba(33,34,69,1) 50%, rgba(119,128,167,1) 100%);
+}
+input{
+    font-family: 'vazirnormal';
+}
+
+#login{
+    width: 400px;
+    height: 300px;
+    margin: 180px auto 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.title{
+    font-family: 'vazirbold';
+    font-size: 20px;
+    padding: 10px;
+   
+    color: rgb(23, 23, 39);
+    margin: auto 100px auto 0 ;
+}
+#login .lable{
+    display: block;
+    padding: 15px;
+    margin: auto 20px auto 0; 
+  
+}
+.input{
+    width: 330px;
+    margin: auto 30px auto 0;
+    padding: 5px;
+    background-color: rgb(184, 185, 194);
+    border: none;
+    border-radius: 5px;
+  
+}
+.input:hover{
+    cursor: pointer;
+}
+.password-container{
+    position: relative;
+}
+.visibility{
+    width: 15px;
+    position: absolute;
+    bottom: 7px;
+    left: 40px;
+    opacity: 0.6;
+    display: none;
+}
+.visibility:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.btn{
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 345px;
+    padding: 7px;
+    background-color: rgb(39, 35, 92);
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #fff
+}
+.btn:hover{
+ 
+    background-color: rgb(87, 87, 94);
+    cursor: pointer;
+}
